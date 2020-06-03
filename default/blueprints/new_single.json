@@ -11,7 +11,7 @@
         },
         "creation_time": "1591083786805673",
         "kind": "blueprint",
-        "last_update_time": "1591084252641152",
+        "last_update_time": "1591177429587468",
         "name": "new_single",
         "owner_reference": {
             "kind": "user",
@@ -23,10 +23,12 @@
             "name": "default",
             "uuid": "cb42ea10-adcb-49a4-b671-600d51df5220"
         },
-        "spec_version": 2,
+        "spec_version": 3,
+        "use_categories_mapping": false,
         "uuid": "38742f15-4ed5-b1dd-5fed-964d91ea8185"
     },
     "spec": {
+        "description": "new des",
         "name": "new_single",
         "resources": {
             "app_profile_list": [
@@ -525,7 +527,7 @@
         }
     },
     "status": {
-        "description": "",
+        "description": "new des",
         "is_cloned": false,
         "message_list": [],
         "name": "new_single",
@@ -558,75 +560,75 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__create_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "fb7f0153-b7d6-4fa1-92a5-f7c46d3b224c"
+                                                        "uuid": "f21fc757-a306-4099-905b-6c3eeb22930f"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__start_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "af839819-dafc-42a1-ad55-a6000d6a0b78"
+                                                        "uuid": "58ebcd72-34c8-4493-8d7d-ce1c1cd51686"
                                                     },
                                                     "type": "",
-                                                    "uuid": "94e9579b-78f1-4c75-9d50-3027e3f99453"
+                                                    "uuid": "a30561c5-655c-4bb2-a48c-8f04236dff42"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__install_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "7842bc09-4bf9-4073-92ea-c0b9c861d8dd"
+                                                        "uuid": "3a43bc23-ec1a-479a-8271-744cab109b8a"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__create_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "fb7f0153-b7d6-4fa1-92a5-f7c46d3b224c"
+                                                        "uuid": "f21fc757-a306-4099-905b-6c3eeb22930f"
                                                     },
                                                     "type": "",
-                                                    "uuid": "32f54a27-fc51-4ccb-9a30-67b0f8b25b86"
+                                                    "uuid": "1bac55fa-a2b1-4a44-a6a7-f177baf9be38"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__pre_create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "1286b457-ca24-4d8d-979a-7718332cd723"
+                                                        "uuid": "eaeb4e1a-8819-44f3-8319-57f6660a94f7"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "44dbf874-0797-4d77-9630-4d1c1167c230"
+                                                        "uuid": "e7ed4b8e-4aa4-418d-ab44-15596b8d1e1b"
                                                     },
                                                     "type": "",
-                                                    "uuid": "2aa90b81-1252-4c0a-9634-c0157c8ca9f0"
+                                                    "uuid": "a8f03d77-5e0b-418a-9826-082569753fe3"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__DE_Provision_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                        "uuid": "f91027da-6d1a-474f-9942-2428ed87efb3"
+                                                        "uuid": "8f218275-1e5a-4c02-844c-41feb2e0f4fc"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__pre_create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "1286b457-ca24-4d8d-979a-7718332cd723"
+                                                        "uuid": "eaeb4e1a-8819-44f3-8319-57f6660a94f7"
                                                     },
                                                     "type": "",
-                                                    "uuid": "cddff76b-4743-4d83-80cc-5d9e30617b24"
+                                                    "uuid": "89cd1de3-8a0d-4abc-99b5-db426260fcbe"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "44dbf874-0797-4d77-9630-4d1c1167c230"
+                                                        "uuid": "e7ed4b8e-4aa4-418d-ab44-15596b8d1e1b"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__install_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "7842bc09-4bf9-4073-92ea-c0b9c861d8dd"
+                                                        "uuid": "3a43bc23-ec1a-479a-8271-744cab109b8a"
                                                     },
                                                     "type": "",
-                                                    "uuid": "08e7ad53-a00b-4c0a-bb70-d492b00804ce"
+                                                    "uuid": "19d637c3-bece-48b3-8932-d25359ef9646"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -635,32 +637,32 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__DE_Provision_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                "uuid": "f91027da-6d1a-474f-9942-2428ed87efb3"
+                                                "uuid": "8f218275-1e5a-4c02-844c-41feb2e0f4fc"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__pre_create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "1286b457-ca24-4d8d-979a-7718332cd723"
+                                                "uuid": "eaeb4e1a-8819-44f3-8319-57f6660a94f7"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "44dbf874-0797-4d77-9630-4d1c1167c230"
+                                                "uuid": "e7ed4b8e-4aa4-418d-ab44-15596b8d1e1b"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__install_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                "uuid": "7842bc09-4bf9-4073-92ea-c0b9c861d8dd"
+                                                "uuid": "3a43bc23-ec1a-479a-8271-744cab109b8a"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__create_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "fb7f0153-b7d6-4fa1-92a5-f7c46d3b224c"
+                                                "uuid": "f21fc757-a306-4099-905b-6c3eeb22930f"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__start_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "af839819-dafc-42a1-ad55-a6000d6a0b78"
+                                                "uuid": "58ebcd72-34c8-4493-8d7d-ce1c1cd51686"
                                             }
                                         ],
                                         "description": "",
@@ -695,7 +697,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CREATE_DEPLOYMENT_ELEMENT",
-                                        "uuid": "f91027da-6d1a-474f-9942-2428ed87efb3",
+                                        "uuid": "8f218275-1e5a-4c02-844c-41feb2e0f4fc",
                                         "variable_list": []
                                     },
                                     {
@@ -726,7 +728,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "1286b457-ca24-4d8d-979a-7718332cd723",
+                                        "uuid": "eaeb4e1a-8819-44f3-8319-57f6660a94f7",
                                         "variable_list": []
                                     },
                                     {
@@ -757,7 +759,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "44dbf874-0797-4d77-9630-4d1c1167c230",
+                                        "uuid": "e7ed4b8e-4aa4-418d-ab44-15596b8d1e1b",
                                         "variable_list": []
                                     },
                                     {
@@ -788,7 +790,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "7842bc09-4bf9-4073-92ea-c0b9c861d8dd",
+                                        "uuid": "3a43bc23-ec1a-479a-8271-744cab109b8a",
                                         "variable_list": []
                                     },
                                     {
@@ -819,7 +821,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "fb7f0153-b7d6-4fa1-92a5-f7c46d3b224c",
+                                        "uuid": "f21fc757-a306-4099-905b-6c3eeb22930f",
                                         "variable_list": []
                                     },
                                     {
@@ -850,7 +852,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "af839819-dafc-42a1-ad55-a6000d6a0b78",
+                                        "uuid": "58ebcd72-34c8-4493-8d7d-ce1c1cd51686",
                                         "variable_list": []
                                     }
                                 ],
@@ -886,15 +888,15 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__start_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "61b3d6bb-03e7-4e17-8da6-a3dffdc6cc2f"
+                                                        "uuid": "ab99f2e9-0fa7-43f8-b076-fa5302a3c722"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__start_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "54a23af3-5dbb-4951-92d0-9737ca810dc9"
+                                                        "uuid": "c4065dab-6428-4584-ac13-d1080ac75c8f"
                                                     },
                                                     "type": "",
-                                                    "uuid": "a74935a5-428a-4ed5-947c-36f2b46db8c3"
+                                                    "uuid": "be2f98d9-79a2-4153-a749-ef22c0f37342"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -903,12 +905,12 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__start_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "61b3d6bb-03e7-4e17-8da6-a3dffdc6cc2f"
+                                                "uuid": "ab99f2e9-0fa7-43f8-b076-fa5302a3c722"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__start_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "54a23af3-5dbb-4951-92d0-9737ca810dc9"
+                                                "uuid": "c4065dab-6428-4584-ac13-d1080ac75c8f"
                                             }
                                         ],
                                         "description": "",
@@ -954,7 +956,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "61b3d6bb-03e7-4e17-8da6-a3dffdc6cc2f",
+                                        "uuid": "ab99f2e9-0fa7-43f8-b076-fa5302a3c722",
                                         "variable_list": []
                                     },
                                     {
@@ -985,7 +987,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "54a23af3-5dbb-4951-92d0-9737ca810dc9",
+                                        "uuid": "c4065dab-6428-4584-ac13-d1080ac75c8f",
                                         "variable_list": []
                                     }
                                 ],
@@ -1021,15 +1023,15 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__restart_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "cd764543-fa4b-4dc5-9330-e8437e8144af"
+                                                        "uuid": "f03fd8b4-5649-41df-993f-ad3ab173ad2a"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__restart_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "3a764182-8d76-4e54-a93d-f494c7792914"
+                                                        "uuid": "3dfc729a-2a9c-47de-9c20-bfcd3b7ab4be"
                                                     },
                                                     "type": "",
-                                                    "uuid": "76b8d309-cd5a-4534-ba91-b9461472e382"
+                                                    "uuid": "e586399c-f8f8-4acf-b2b9-06e81782c531"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -1038,12 +1040,12 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__restart_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "cd764543-fa4b-4dc5-9330-e8437e8144af"
+                                                "uuid": "f03fd8b4-5649-41df-993f-ad3ab173ad2a"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__restart_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "3a764182-8d76-4e54-a93d-f494c7792914"
+                                                "uuid": "3dfc729a-2a9c-47de-9c20-bfcd3b7ab4be"
                                             }
                                         ],
                                         "description": "",
@@ -1089,7 +1091,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "cd764543-fa4b-4dc5-9330-e8437e8144af",
+                                        "uuid": "f03fd8b4-5649-41df-993f-ad3ab173ad2a",
                                         "variable_list": []
                                     },
                                     {
@@ -1120,7 +1122,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "3a764182-8d76-4e54-a93d-f494c7792914",
+                                        "uuid": "3dfc729a-2a9c-47de-9c20-bfcd3b7ab4be",
                                         "variable_list": []
                                     }
                                 ],
@@ -1156,15 +1158,15 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__stop_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "99bbfc10-4a3a-43f6-87b1-b8d47d114fdf"
+                                                        "uuid": "bc7362fb-776c-4acd-ac92-02542f87fabd"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__stop_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "8a6937dd-f537-4e1e-8561-fab8f65a89b1"
+                                                        "uuid": "28d512bd-c438-4c86-8d60-a1a2d59d62d2"
                                                     },
                                                     "type": "",
-                                                    "uuid": "07e0f9f0-91cf-4a78-a858-a3d038143676"
+                                                    "uuid": "b0a1818b-75cb-4456-a7d4-7429725a2601"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -1173,12 +1175,12 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__stop_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "99bbfc10-4a3a-43f6-87b1-b8d47d114fdf"
+                                                "uuid": "bc7362fb-776c-4acd-ac92-02542f87fabd"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__stop_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "8a6937dd-f537-4e1e-8561-fab8f65a89b1"
+                                                "uuid": "28d512bd-c438-4c86-8d60-a1a2d59d62d2"
                                             }
                                         ],
                                         "description": "",
@@ -1224,7 +1226,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "99bbfc10-4a3a-43f6-87b1-b8d47d114fdf",
+                                        "uuid": "bc7362fb-776c-4acd-ac92-02542f87fabd",
                                         "variable_list": []
                                     },
                                     {
@@ -1255,7 +1257,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "8a6937dd-f537-4e1e-8561-fab8f65a89b1",
+                                        "uuid": "28d512bd-c438-4c86-8d60-a1a2d59d62d2",
                                         "variable_list": []
                                     }
                                 ],
@@ -1291,75 +1293,75 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__stop_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "1814f75a-2d70-4a6d-b05f-2712aea2444e"
+                                                        "uuid": "547b765c-4777-4b99-a805-ca0cee8d6cf9"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__delete_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "036de443-9c40-4599-b731-ea858ea62547"
+                                                        "uuid": "ec7dc63b-7571-4433-a2aa-99a209fdf034"
                                                     },
                                                     "type": "",
-                                                    "uuid": "89c20601-01a4-419b-a813-f0ce05d64150"
+                                                    "uuid": "e027a171-fce7-4ed4-a2f4-bd4b5d74af92"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__delete_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "036de443-9c40-4599-b731-ea858ea62547"
+                                                        "uuid": "ec7dc63b-7571-4433-a2aa-99a209fdf034"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__uninstall_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "b208f0ee-0094-49cc-b42d-14ad03d7d79e"
+                                                        "uuid": "d3920762-af0f-4e26-afb7-15b60d84a514"
                                                     },
                                                     "type": "",
-                                                    "uuid": "41dd1530-fca0-4961-b7f6-49840a346d7c"
+                                                    "uuid": "dba3a004-7288-4d69-ab9c-fed24b5d46ad"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "a7bab761-c178-4b47-bb2b-1d471ed59582"
+                                                        "uuid": "3be4aab5-3007-4b73-b315-17d254ab1f75"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__post_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "afb47238-cebb-4a6b-8d95-dcd11a0ce863"
+                                                        "uuid": "9455cd1c-0f03-4709-b199-2f8f4bcc668c"
                                                     },
                                                     "type": "",
-                                                    "uuid": "8e51f416-4532-4819-87ec-6d9fa27398d7"
+                                                    "uuid": "710b4f6c-879c-4c95-bbe6-c5eaf577da06"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__post_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "afb47238-cebb-4a6b-8d95-dcd11a0ce863"
+                                                        "uuid": "9455cd1c-0f03-4709-b199-2f8f4bcc668c"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__DE_Delete_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                        "uuid": "34b74551-39be-4b1c-9e72-15a8d3e38bfc"
+                                                        "uuid": "7f1985c3-582e-419d-ad4f-562a09a1a4d1"
                                                     },
                                                     "type": "",
-                                                    "uuid": "17ade01e-d612-42ac-85bc-e774a0de3c25"
+                                                    "uuid": "741f756c-bcc4-42c2-a9cd-8109a5d5e5a5"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__uninstall_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "b208f0ee-0094-49cc-b42d-14ad03d7d79e"
+                                                        "uuid": "d3920762-af0f-4e26-afb7-15b60d84a514"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "a7bab761-c178-4b47-bb2b-1d471ed59582"
+                                                        "uuid": "3be4aab5-3007-4b73-b315-17d254ab1f75"
                                                     },
                                                     "type": "",
-                                                    "uuid": "45d75f51-7ad2-43a1-8fe1-b7286c65c232"
+                                                    "uuid": "f8b32237-c274-4d4e-b992-b8e9badbf128"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -1368,32 +1370,32 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__stop_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "1814f75a-2d70-4a6d-b05f-2712aea2444e"
+                                                "uuid": "547b765c-4777-4b99-a805-ca0cee8d6cf9"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__delete_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "036de443-9c40-4599-b731-ea858ea62547"
+                                                "uuid": "ec7dc63b-7571-4433-a2aa-99a209fdf034"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__uninstall_CRb_Package_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                "uuid": "b208f0ee-0094-49cc-b42d-14ad03d7d79e"
+                                                "uuid": "d3920762-af0f-4e26-afb7-15b60d84a514"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "a7bab761-c178-4b47-bb2b-1d471ed59582"
+                                                "uuid": "3be4aab5-3007-4b73-b315-17d254ab1f75"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__post_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "afb47238-cebb-4a6b-8d95-dcd11a0ce863"
+                                                "uuid": "9455cd1c-0f03-4709-b199-2f8f4bcc668c"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__DE_Delete_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                "uuid": "34b74551-39be-4b1c-9e72-15a8d3e38bfc"
+                                                "uuid": "7f1985c3-582e-419d-ad4f-562a09a1a4d1"
                                             }
                                         ],
                                         "description": "",
@@ -1439,7 +1441,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "1814f75a-2d70-4a6d-b05f-2712aea2444e",
+                                        "uuid": "547b765c-4777-4b99-a805-ca0cee8d6cf9",
                                         "variable_list": []
                                     },
                                     {
@@ -1470,7 +1472,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "036de443-9c40-4599-b731-ea858ea62547",
+                                        "uuid": "ec7dc63b-7571-4433-a2aa-99a209fdf034",
                                         "variable_list": []
                                     },
                                     {
@@ -1501,7 +1503,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "b208f0ee-0094-49cc-b42d-14ad03d7d79e",
+                                        "uuid": "d3920762-af0f-4e26-afb7-15b60d84a514",
                                         "variable_list": []
                                     },
                                     {
@@ -1532,7 +1534,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "a7bab761-c178-4b47-bb2b-1d471ed59582",
+                                        "uuid": "3be4aab5-3007-4b73-b315-17d254ab1f75",
                                         "variable_list": []
                                     },
                                     {
@@ -1563,7 +1565,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "afb47238-cebb-4a6b-8d95-dcd11a0ce863",
+                                        "uuid": "9455cd1c-0f03-4709-b199-2f8f4bcc668c",
                                         "variable_list": []
                                     },
                                     {
@@ -1583,7 +1585,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "DELETE_DEPLOYMENT_ELEMENT",
-                                        "uuid": "34b74551-39be-4b1c-9e72-15a8d3e38bfc",
+                                        "uuid": "7f1985c3-582e-419d-ad4f-562a09a1a4d1",
                                         "variable_list": []
                                     }
                                 ],
@@ -1619,45 +1621,45 @@
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__soft_delete_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                        "uuid": "d0ad3d5f-59fa-415d-b175-29fc93cdf2b9"
+                                                        "uuid": "5790a383-0a0e-47ad-ad5b-19e527ba3f3c"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__Package_Element_Delete_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "ac1e0fc0-bd96-4873-9573-7e8a9aae9aa9"
+                                                        "uuid": "9998c94b-1b98-43ac-827c-8e4a08e39cb4"
                                                     },
                                                     "type": "",
-                                                    "uuid": "f851eeac-b2ca-4aee-bc86-efadd58a0a72"
+                                                    "uuid": "2b79cf4e-81ea-4df5-a573-500a780c4be8"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__Package_Element_Delete_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                        "uuid": "ac1e0fc0-bd96-4873-9573-7e8a9aae9aa9"
+                                                        "uuid": "9998c94b-1b98-43ac-827c-8e4a08e39cb4"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__soft_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "6cd7b0e8-eea0-4794-9ab1-30374712ddec"
+                                                        "uuid": "8d3a900f-efa3-41ad-aaa8-7a060f270cb8"
                                                     },
                                                     "type": "",
-                                                    "uuid": "37238242-3468-4816-a898-3bcc4b0ccf9f"
+                                                    "uuid": "a0b7efe2-eb45-4770-bf7b-4ef23e5aa08d"
                                                 },
                                                 {
                                                     "edge_type": "inherent",
                                                     "from_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__soft_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                        "uuid": "6cd7b0e8-eea0-4794-9ab1-30374712ddec"
+                                                        "uuid": "8d3a900f-efa3-41ad-aaa8-7a060f270cb8"
                                                     },
                                                     "to_task_reference": {
                                                         "kind": "app_task",
                                                         "name": "SYS_GEN__DE_Soft_Delete_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                        "uuid": "689277aa-f042-494a-abe3-7f038c6c1787"
+                                                        "uuid": "deaefb0f-53f0-4c35-91ee-2b28a2357dd4"
                                                     },
                                                     "type": "",
-                                                    "uuid": "6eb8a6ec-cf60-4bf8-ad33-c5896d69011b"
+                                                    "uuid": "fa670292-641c-4b55-9d3a-35b72c0f1668"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -1666,22 +1668,22 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__soft_delete_CRb_Service_71d85528_b78c_8662_333d_01b857a9edbc",
-                                                "uuid": "d0ad3d5f-59fa-415d-b175-29fc93cdf2b9"
+                                                "uuid": "5790a383-0a0e-47ad-ad5b-19e527ba3f3c"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__Package_Element_Delete_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                "uuid": "ac1e0fc0-bd96-4873-9573-7e8a9aae9aa9"
+                                                "uuid": "9998c94b-1b98-43ac-827c-8e4a08e39cb4"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__soft_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "6cd7b0e8-eea0-4794-9ab1-30374712ddec"
+                                                "uuid": "8d3a900f-efa3-41ad-aaa8-7a060f270cb8"
                                             },
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__DE_Soft_Delete_911c046d_ec28_c7d2_847a_07da4f7a51ef",
-                                                "uuid": "689277aa-f042-494a-abe3-7f038c6c1787"
+                                                "uuid": "deaefb0f-53f0-4c35-91ee-2b28a2357dd4"
                                             }
                                         ],
                                         "description": "",
@@ -1727,7 +1729,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "d0ad3d5f-59fa-415d-b175-29fc93cdf2b9",
+                                        "uuid": "5790a383-0a0e-47ad-ad5b-19e527ba3f3c",
                                         "variable_list": []
                                     },
                                     {
@@ -1747,7 +1749,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "SOFT_DELETE_ELEMENT",
-                                        "uuid": "ac1e0fc0-bd96-4873-9573-7e8a9aae9aa9",
+                                        "uuid": "9998c94b-1b98-43ac-827c-8e4a08e39cb4",
                                         "variable_list": []
                                     },
                                     {
@@ -1778,7 +1780,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "6cd7b0e8-eea0-4794-9ab1-30374712ddec",
+                                        "uuid": "8d3a900f-efa3-41ad-aaa8-7a060f270cb8",
                                         "variable_list": []
                                     },
                                     {
@@ -1798,7 +1800,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "SOFT_DELETE_DEPLOYMENT_ELEMENT",
-                                        "uuid": "689277aa-f042-494a-abe3-7f038c6c1787",
+                                        "uuid": "deaefb0f-53f0-4c35-91ee-2b28a2357dd4",
                                         "variable_list": []
                                     }
                                 ],
@@ -1835,7 +1837,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__install_ngt_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "b9bbfb06-2944-4e1b-95fb-bc21a29aab4e"
+                                                "uuid": "fba58c61-a04f-41e4-b51d-ddd3c5abe685"
                                             }
                                         ],
                                         "description": "",
@@ -1881,7 +1883,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "b9bbfb06-2944-4e1b-95fb-bc21a29aab4e",
+                                        "uuid": "fba58c61-a04f-41e4-b51d-ddd3c5abe685",
                                         "variable_list": []
                                     }
                                 ],
@@ -1903,7 +1905,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "b5c1e99c-273a-45dd-9bce-8b1d65b1c80a",
+                                        "uuid": "cd882bbe-8633-47f5-8a28-e206f1ea7c94",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -1923,7 +1925,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "11fc4972-d3c4-4a64-9f54-0a5ed851b4da",
+                                        "uuid": "2ee1222a-85ba-4847-ba79-60a657aa46df",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -1943,7 +1945,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "d3720be7-b041-43aa-ae26-5cdc84bc45de",
+                                        "uuid": "406f3f05-8bfa-401f-b2f6-d01f755ce2a9",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -1963,7 +1965,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "8a122dba-3f07-48ae-9390-fa18f094186d",
+                                        "uuid": "3cb2cdc6-dc60-4bf6-abf1-3ad4ea345f12",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -1983,15 +1985,15 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "1e2ba6c2-9efe-4a94-b04c-1294f4ae8947",
+                                        "uuid": "e5cde012-5f44-49d3-99fe-dc79dbe1c1d3",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
                                     {
                                         "attrs": {
-                                            "is_secret_modified": false,
+                                            "is_secret_modified": true,
                                             "secret_reference": {
-                                                "uuid": "898f2feb-f1e6-431c-919b-b0c0c782b37e"
+                                                "uuid": "668f21d0-649c-4536-8b71-e36649cbcf02"
                                             },
                                             "type": ""
                                         },
@@ -2009,7 +2011,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "SECRET",
-                                        "uuid": "9a570f36-29b5-4fde-a762-be7e79981ee2",
+                                        "uuid": "aaf403c5-25b1-4262-ab4b-3763db94d453",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -2029,7 +2031,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "794b84ab-9dc0-4738-80d6-2460c92b602d",
+                                        "uuid": "0de06180-d8be-41b3-bc9a-e4e100742b15",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -2049,7 +2051,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "53a9a0ad-97af-42db-bc58-de497bab5f97",
+                                        "uuid": "4f83b863-223d-49e1-89d1-e6883693fcc0",
                                         "val_type": "STRING",
                                         "value": ""
                                     }
@@ -2085,7 +2087,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__manage_ngt_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "b53ec712-987e-4f56-b9b7-8ee77f9803d8"
+                                                "uuid": "6142e6ea-8ba2-451f-9318-66f7ebc07778"
                                             }
                                         ],
                                         "description": "",
@@ -2131,7 +2133,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "b53ec712-987e-4f56-b9b7-8ee77f9803d8",
+                                        "uuid": "6142e6ea-8ba2-451f-9318-66f7ebc07778",
                                         "variable_list": []
                                     }
                                 ],
@@ -2153,7 +2155,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "31747070-b9c6-404a-835e-f8322ee22c61",
+                                        "uuid": "eda862e0-7086-4679-be19-0e66fab88dde",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -2173,7 +2175,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "a2cd4f9e-4faf-42f9-84a6-910057bc49ab",
+                                        "uuid": "b9259073-5780-4a81-ae93-af0829b0e78a",
                                         "val_type": "STRING",
                                         "value": ""
                                     }
@@ -2209,7 +2211,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__uninstall_ngt_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "e3df93e3-9874-43cc-8aa3-1a548b9ea2a6"
+                                                "uuid": "72a48caf-966d-4e8c-939d-a9807a288f22"
                                             }
                                         ],
                                         "description": "",
@@ -2255,7 +2257,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "e3df93e3-9874-43cc-8aa3-1a548b9ea2a6",
+                                        "uuid": "72a48caf-966d-4e8c-939d-a9807a288f22",
                                         "variable_list": []
                                     }
                                 ],
@@ -2292,7 +2294,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__snapshot_create_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "e26e1799-00ea-4b3a-8d36-e50691025ae3"
+                                                "uuid": "2376f6e2-b5b2-4ee0-9c1a-f5534f0ccda1"
                                             }
                                         ],
                                         "description": "",
@@ -2338,7 +2340,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "e26e1799-00ea-4b3a-8d36-e50691025ae3",
+                                        "uuid": "2376f6e2-b5b2-4ee0-9c1a-f5534f0ccda1",
                                         "variable_list": []
                                     }
                                 ],
@@ -2360,7 +2362,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "71c88ddb-0390-4238-89fe-4743b8dfe310",
+                                        "uuid": "09c9e99d-2c6c-44b3-af46-585577331218",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -2380,7 +2382,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "fc220aa2-cc98-45e4-aef3-bd531992c27e",
+                                        "uuid": "64a391f9-57fb-46f2-82c4-7f1ff50506ce",
                                         "val_type": "STRING",
                                         "value": ""
                                     }
@@ -2416,7 +2418,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__snapshot_delete_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "d5d9cabf-50da-455b-a208-af72ca0d0fb9"
+                                                "uuid": "6670aacd-805d-47d0-93fb-bd25aa3df000"
                                             }
                                         ],
                                         "description": "",
@@ -2462,7 +2464,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "d5d9cabf-50da-455b-a208-af72ca0d0fb9",
+                                        "uuid": "6670aacd-805d-47d0-93fb-bd25aa3df000",
                                         "variable_list": []
                                     }
                                 ],
@@ -2484,7 +2486,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "356e4210-1b63-4871-97d1-47c685560c69",
+                                        "uuid": "f2bc822e-566c-4ba7-ba34-04a092b8cc4b",
                                         "val_type": "STRING",
                                         "value": ""
                                     }
@@ -2520,7 +2522,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__restore_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "4da847ce-2133-4f60-8476-95194b0a352c"
+                                                "uuid": "c1b9b6a8-8e63-4277-a2a5-e1f18622ac0d"
                                             }
                                         ],
                                         "description": "",
@@ -2566,7 +2568,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "4da847ce-2133-4f60-8476-95194b0a352c",
+                                        "uuid": "c1b9b6a8-8e63-4277-a2a5-e1f18622ac0d",
                                         "variable_list": []
                                     }
                                 ],
@@ -2588,7 +2590,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "d18605fa-8720-4d08-be28-d03b3b2b4ec2",
+                                        "uuid": "0ffde817-10ea-4001-8e74-cf5bd31a6478",
                                         "val_type": "STRING",
                                         "value": ""
                                     },
@@ -2608,7 +2610,7 @@
                                         "regex": {},
                                         "state": "NOT_VALIDATED",
                                         "type": "LOCAL",
-                                        "uuid": "5b211723-3e35-45e3-a374-c000cfc253c0",
+                                        "uuid": "0985121d-9445-4a55-8b1c-3ebbf7ae0ec8",
                                         "val_type": "STRING",
                                         "value": ""
                                     }
@@ -2644,7 +2646,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__update_CRb_Substrate_56bd2f11_1c7f_5a3a_ce5e_29d4e4e6b920",
-                                                "uuid": "48239d2a-aabf-4b47-8057-a0a697c12737"
+                                                "uuid": "9e601caa-4aa8-4950-8b44-60f6d898b0b9"
                                             }
                                         ],
                                         "description": "",
@@ -2690,7 +2692,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CALL_RUNBOOK",
-                                        "uuid": "48239d2a-aabf-4b47-8057-a0a697c12737",
+                                        "uuid": "9e601caa-4aa8-4950-8b44-60f6d898b0b9",
                                         "variable_list": []
                                     }
                                 ],
@@ -3924,7 +3926,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "b38e815b-e835-494a-a87f-f4a35651b9cc",
+                                                "uuid": "0754f849-a311-4912-b6f5-b7726a793d7e",
                                                 "val_type": "STRING",
                                                 "value": "0"
                                             }
@@ -4019,7 +4021,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "9e0d2437-94e7-4a4d-ab07-f44ab2f4f876",
+                                                "uuid": "4151eb36-5dec-4fff-8d85-ef34a067ff66",
                                                 "val_type": "STRING",
                                                 "value": "0"
                                             }
@@ -4338,7 +4340,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "a48b11a8-abac-42ff-87fc-545872d65d56",
+                                                "uuid": "3ad4fdfc-4c27-4058-b3ff-31e7da9e7779",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4358,7 +4360,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "027d0931-b2dc-44d9-89e6-d6eb97d25117",
+                                                "uuid": "a49abaf1-5ade-4236-b4dc-d8b77aafa4d7",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4378,7 +4380,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "8e37e70b-fd68-4ee2-bcd7-5b3300be6a4f",
+                                                "uuid": "2e725808-f12a-4c3d-9091-d32e491f3e37",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4398,7 +4400,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "f4f79517-ec85-462b-821d-8832039d590e",
+                                                "uuid": "492f08b1-6a6e-4683-bb5d-02bd55f3b17a",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4418,15 +4420,15 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "cf8dd97f-b42f-4037-b788-3667f66e73c6",
+                                                "uuid": "7ad79e82-77b3-4ac3-bab8-549fa771da84",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
                                             {
                                                 "attrs": {
-                                                    "is_secret_modified": false,
+                                                    "is_secret_modified": true,
                                                     "secret_reference": {
-                                                        "uuid": "bcdb9d7f-d84f-4fea-8a01-7ee10a628c8c"
+                                                        "uuid": "04944a8e-38ac-43b4-bce1-76cfdf94ec45"
                                                     },
                                                     "type": ""
                                                 },
@@ -4444,7 +4446,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "SECRET",
-                                                "uuid": "a09b0859-e66e-4e66-ae44-de1e27ab2901",
+                                                "uuid": "54378c6f-b3db-4503-bc15-20b66662204d",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4464,7 +4466,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "b5593562-d833-42f7-b6d1-e026a90d3956",
+                                                "uuid": "b620ce3e-e5a5-47e3-be18-542d6faa4f48",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4484,7 +4486,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "81f7b855-e940-4941-9cc4-6f0002878f18",
+                                                "uuid": "fab78519-4959-4727-806c-6a8961c8672a",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             }
@@ -4588,7 +4590,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "2216bbb5-1a22-4c3c-8f09-73cba4f9cf1c",
+                                                "uuid": "57de6fa9-4cd2-467a-8db4-6aa704599ed8",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4608,7 +4610,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "7ce5e565-47ae-4bd0-960a-055d5e2e7b5a",
+                                                "uuid": "483b36df-f00a-45ff-a019-b8ed2336d70f",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             }
@@ -4795,7 +4797,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "9ba203e6-0bc2-4a6f-bb6f-5d0e08df2b38",
+                                                "uuid": "9b834991-02e5-4fc3-88bf-9c6f3bcb9394",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -4815,7 +4817,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "b79bd920-5ae8-43a2-99de-020f4ffbfe5a",
+                                                "uuid": "d798bf62-07ca-4261-8d13-e169aae92535",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             }
@@ -4919,7 +4921,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "f9e97672-5b21-4c65-ac14-c2fa61ef7b8b",
+                                                "uuid": "a74bb764-86a0-4e40-8fe2-85290a18a80f",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             }
@@ -5023,7 +5025,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "896d1b0f-ecec-4059-9a8a-2ccd6b6ab143",
+                                                "uuid": "8fc6b5ad-aba5-4ab2-aa06-57b2bf64d572",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             },
@@ -5043,7 +5045,7 @@
                                                 "regex": {},
                                                 "state": "NOT_VALIDATED",
                                                 "type": "LOCAL",
-                                                "uuid": "9222ab04-e203-4e6b-8342-a2a9e1dbc549",
+                                                "uuid": "c6873938-68da-401f-8b8d-685deea9e4c0",
                                                 "val_type": "STRING",
                                                 "value": ""
                                             }
@@ -5176,7 +5178,7 @@
             "credential_definition_list": [
                 {
                     "description": "",
-                    "editables": {},
+                    "editables": null,
                     "message_list": [],
                     "name": "CENTOS",
                     "secret": {
@@ -5225,7 +5227,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__Install_Crb_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                "uuid": "79033afa-7b8f-4a60-aa3f-24b5fbc111b1"
+                                                "uuid": "59105486-71e9-4dca-a091-dede6e2a277d"
                                             }
                                         ],
                                         "description": "",
@@ -5412,7 +5414,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CUSTOM_PACKAGE_INSTALL",
-                                        "uuid": "79033afa-7b8f-4a60-aa3f-24b5fbc111b1",
+                                        "uuid": "59105486-71e9-4dca-a091-dede6e2a277d",
                                         "variable_list": []
                                     }
                                 ],
@@ -5620,7 +5622,7 @@
                                             {
                                                 "kind": "app_task",
                                                 "name": "SYS_GEN__Uninstall_Crb_d8f540c0_c3ce_6f49_b179_336c4e0d1fb0",
-                                                "uuid": "75db7aed-4776-440c-b246-ddcec781d9a5"
+                                                "uuid": "399659e0-262a-4c45-972e-5aad4d2fcfc4"
                                             }
                                         ],
                                         "description": "",
@@ -5807,7 +5809,7 @@
                                         },
                                         "timeout_secs": "0",
                                         "type": "CUSTOM_PACKAGE_UNINSTALL",
-                                        "uuid": "75db7aed-4776-440c-b246-ddcec781d9a5",
+                                        "uuid": "399659e0-262a-4c45-972e-5aad4d2fcfc4",
                                         "variable_list": []
                                     }
                                 ],
@@ -6344,7 +6346,7 @@
                         }
                     ],
                     "description": "",
-                    "editables": {},
+                    "editables": null,
                     "message_list": [],
                     "name": "Package1",
                     "options": {
@@ -6825,7 +6827,7 @@
                     ],
                     "depends_on_list": [],
                     "description": "",
-                    "editables": {},
+                    "editables": null,
                     "message_list": [],
                     "name": "Service1",
                     "port_list": [],
@@ -6872,7 +6874,7 @@
                                                         "uuid": "68aacbc3-c308-4ac0-acae-f20fd15f1575"
                                                     },
                                                     "type": "",
-                                                    "uuid": "aeb12256-5b21-499c-83b6-350611e5dee7"
+                                                    "uuid": "34e2c78e-7828-404a-a096-c072003fcae7"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -7060,7 +7062,7 @@
                                                         "uuid": "70233712-de90-4766-905b-a6feebc34fed"
                                                     },
                                                     "type": "",
-                                                    "uuid": "b871d438-52d2-47fa-b879-4f15f737d44f"
+                                                    "uuid": "3b23894f-aa60-488e-b868-10e5ba3c055c"
                                                 }
                                             ],
                                             "type": "DAG"
@@ -7178,7 +7180,7 @@
                                                         "uuid": "bf583d84-08bf-436a-9a97-69671067062b"
                                                     },
                                                     "type": "",
-                                                    "uuid": "f8ce7fed-f0e3-419d-a39e-970529f76f9a"
+                                                    "uuid": "c43a2a86-592d-4690-8276-c48cd223ddde"
                                                 }
                                             ],
                                             "type": "DAG"
